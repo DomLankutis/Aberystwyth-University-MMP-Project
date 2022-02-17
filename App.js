@@ -1,12 +1,12 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, View} from 'react-native';
-import ArrayDisplay from "./components/ArrayDisplay";
+import MainCanvas from "./components/MainCanvas";
 import React from "react";
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <ArrayDisplay arrSize={100}/>
+      <MainCanvas arrSize={50}/>
       <StatusBar style="auto" />
     </View>
   );
